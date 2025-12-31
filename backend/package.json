@@ -12,12 +12,14 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
-    "@confluentinc/kafka-javascript": "^1.7.0",
     "@google-cloud/aiplatform": "^6.0.0",
     "@google-cloud/vertexai": "^1.10.0",
+    "@kafkajs/confluent-schema-registry": "^3.9.0",
+    "axios": "^1.13.2",
     "cors": "^2.8.5",
     "dotenv": "^17.2.3",
     "express": "^5.2.1",
+    "kafkajs": "^2.2.4",
     "ws": "^8.18.3"
   }
 }
